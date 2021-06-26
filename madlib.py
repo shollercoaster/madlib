@@ -1,6 +1,6 @@
 import re
 def madlib():
-    fresh=open("fresh.txt", 'w+')
+    fresh=open("fresh.txt", 'w+') #fresh.txt is just an empty text file where the changed paragraph is written.
     story=open("story.txt", 'r')
     with open("write.txt", 'r+') as output:
         read=story.readlines()
